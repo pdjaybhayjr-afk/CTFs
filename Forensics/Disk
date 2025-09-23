@@ -1,1 +1,19 @@
+🌐DISKO 1
+Challenge Name: DISKO 1
+Category: Forensics 
+Difficulty: Easy
 
+🧠 Challenge Description
+Can you find the flag in this disk image?
+Download the disk image here.
+
+📁 Files Provided
+Image download link(a .dd file)
+
+🧩 Solution Overview
+Downloaded the file,which was in .dd format,
+so opened it using notepad.In seacrh bar,typed the flag format;
+which revealed the flag.
+
+🛠️ Tools Used
+Notepad
