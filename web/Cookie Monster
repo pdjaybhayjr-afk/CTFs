@@ -1,0 +1,23 @@
+🌐 Cookie Monster
+Challenge Name: Cookie Monster
+Category: Web Exploitation 
+Difficulty: Easy
+
+🧠 Challenge Description
+Cookie Monster has hidden his top-secret cookie recipe somewhere on his website.
+As an aspiring cookie detective, your mission is to uncover this delectable secret. 
+Can you outsmart Cookie Monster and find the hidden recipe?
+Additional details will be available after launching your challenge instance.
+
+📁 Files Provided
+URL to login web page (no static files provided)
+
+🧩 Solution Overview
+Opened the site and inspected the source code.
+Under Application tab,in cookies section,a cookie had value in a format which ended with '=='
+which hinted that Base64 Decoder might be useful.
+After decoding,it gave the flag as output.
+
+🛠️ Tools Used
+Cyberchef
+Base64 Decoder
