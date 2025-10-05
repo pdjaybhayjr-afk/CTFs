@@ -1,0 +1,21 @@
+
+Challenge Name: Safe Opener
+Category: Reverse Engineering
+Difficulty: Medium
+
+🧠 Challenge Description
+Can you open this safe?
+I forgot the key to my safe but this program is supposed to help me with retrieving the lost key. 
+Can you help me unlock my safe.
+
+📁 Files Provided
+A java file
+
+🧩 Solution Overview
+ The program basically checks a password against a hardcoded secret key. It uses Base64 encoding to transform the user's
+input before comparing it to the stored encoded password.
+So after using Base64 decoder and entering the output of it with the flag in correct format,the challenge was solved.
+
+🛠️ Tools Used
+Cyberchef
+Base64 Decoder
