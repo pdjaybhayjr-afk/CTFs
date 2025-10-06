@@ -1,0 +1,19 @@
+
+Challenge Name: keygenme-py
+Category: Reverse Engineering
+Difficulty: Medium
+
+🧠 Challenge Description
+This vault uses some complicated arrays! I hope you can make sense of it, special agent. The source code for this vault is here: VaultDoor1.java
+
+📁 Files Provided
+VaultDoor1.java
+
+🧩 Solution Overview
+The Java program checks 32 specific character positions of the password with password.charAt(index) == 'X'.
+After collecting each (index → character) pair from the checkPassword method,
+Read the array left-to-right and join the characters to form the 32‑char password and finally
+inserted that password inside picoCTF{...} to get the final flag.
+
+🛠️ Tools Used
+Pen,paper.
