@@ -1,0 +1,18 @@
+
+Challenge Name: keygenme-py
+Category: Reverse Engineering
+Difficulty: Medium
+
+🧠 Challenge Description
+N.A.
+
+📁 Files Provided
+A PYTHON file:keygenme-trial.py
+
+🧩 Solution Overview
+The program hides a secret “license key” that unlocks the full version.
+It builds the key from the SHA-256 hash of the username SCHOFIELD, taking 8 specific characters from that hash.
+Those characters are inserted into the template picoCTF{1n_7h3_|<3y_of_XXXXXXXX} giving us the flag.
+
+🛠️ Tools Used
+Python, hashlib, base64, cryptography, Fernet, string-indexing
