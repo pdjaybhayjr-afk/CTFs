@@ -1,0 +1,32 @@
+
+Challenge Name: Vault Door 4
+Category: Reverse Engineering
+Difficulty: Medium
+
+🧠 Challenge Description
+This vault uses ASCII encoding for the password.
+
+📁 Files Provided
+VaultDoor4.java
+
+🧩 Solution Overview
+The program checks a 32-character password against a predefined byte array myBytes.
+myBytes is written using a mix of decimal, hex, octal, and character literals.
+Each byte corresponds to a single ASCII character.
+To find the password, firstly converted each byte to its ASCII character in the given order.
+Concatenated all the characters to form the password.
+
+🛠️ Tools Used
+Online ASCII converter
+
+
+
+
+
+
+
+
+
+
+
+
